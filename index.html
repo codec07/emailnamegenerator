@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Shuffler - By 25hustles by Aarush Mehta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="mtext" style="margin-top: 20px;">By 25hustles</h3>
+        <h6 class="mtext" style="margin-bottom: 20px;">by Aarush Mehta</h6>
+        <h4 class="mtext" style="margin-bottom: 10px;">Email Maker</h4>
+        <h6 class="mtext" style="margin-bottom: 10px;">Free Research Paper</h6>
+        <hr width="100%" style="margin-top: 10px;">
+        <div class="tfield-keeper">
+            <input type="text" id="ftxt" class="inps" placeholder="First Text to Show">
+            <input type="text" id="ltxt" class="inps" placeholder="Last Text to Show">
+        </div>
+        <input type="text" id="domain" class="domain-inp d-inps" placeholder="Your Perosnal Domain. Default gmail.com">
+        <div class="checkbox-keeper">
+            <div class="b"><input type="radio" name="checks" id="include-dot" class="cbox" style="margin-right: 10px;"> <p class="checkText">Include Dots</p></div>
+            <div class="b" style="margin-bottom: 20px;"><input type="radio" name="checks" id="include-number" class="cbox" style="margin-right: 10px;"> <p class="checkText">Include Numbers</p></div>
+        </div>
+        <button class="createBtn" onclick="shuffle()">CREATE</button>
+
+        <div class="g-mail-keeper">
+            <div class="m">
+                <h3 class="mtext" id="mt1">Mail 1: </h3>
+            </div>
+            <div class="m">
+                <h3 class="mtext" id="mt2">Mail 2: </h3>
+            </div>
+            <div class="m" style="margin-bottom: 20px;">
+                <h3 class="mtext" id="mt3">Mail 3: </h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
